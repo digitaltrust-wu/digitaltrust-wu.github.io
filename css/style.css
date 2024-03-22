@@ -15,7 +15,7 @@ img {
 	height: auto;/*高さ自動*/
 }
 a {
-    display:block;
+    /* display:block; */
     color: var(--link-color);
     text-decoration-line: none;
 }

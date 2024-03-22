@@ -301,6 +301,7 @@ ol ul {
   margin: 1.5rem 0 1.5rem 3rem;
   font-size: 90%; }
 li {
+  text-align: left;
   margin-bottom: 1rem; }
 
 
@@ -323,18 +324,25 @@ pre > code {
 /* テーブル
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 table {
-	border-collapse: collapse; }
+	border-collapse: collapse; 
+	margin: auto;
+}
 th,
 td {
   padding: 12px 15px;
   text-align: left;
+  border-top: 1px solid #E1E1E1;
   border-bottom: 1px solid #E1E1E1; }
-th:first-child,
+/* th:first-child,
 td:first-child {
   padding-left: 0; }
 th:last-child,
 td:last-child {
-  padding-right: 0; }
+  padding-right: 0; } */
+td, th {
+  padding-left: 30px;
+  padding-right: 30px;
+}
 
 
 /* スペース
